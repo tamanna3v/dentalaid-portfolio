@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>ডেন্টাল এইড | মধ্য বাড্ডা, ঢাকা</title>
+<meta name="description" content="Dental Aid, Middle Badda, Dhaka — friendly, affordable dental care. Open daily 10 AM–1 PM and 5–10 PM. Call 01918-304860.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Anek+Bangla:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#2563EB; --blue-d:#1D4ED8;
+  --teal:#14A38B; --teal-d:#0F8A75;
+  --amber:#F2A23A;
+  --pink:#D9468F; --violet:#8B5CF6;
+  --ink:#0F1E3A; --ink-2:#4A5873; --line:#E3E9F2;
+  --bg:#F5F8FC; --card:#FFFFFF;
+  --r:18px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hind Siliguri","Noto Sans Bengali",system-ui,sans-serif;font-size:16.5px;line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.disp{font-family:"Anek Bangla","Hind Siliguri",sans-serif}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:8px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+svg{flex:none}
+
+/* sample ribbon */
+.demo{background:#0F1E3A;color:#fff;font-size:13.5px;text-align:center;padding:6px 16px}
+
+/* top bar */
+.topbar{background:#fff;border-bottom:1px solid var(--line);font-size:14px;color:var(--ink-2)}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;height:38px}
+.topbar a{text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+@media (max-width:640px){.topbar .hide-sm{display:none}}
+
+/* header */
+header{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:14px;height:68px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo{width:42px;height:42px;border-radius:50%;border:2px solid var(--blue);display:grid;place-items:center;background:#EEF4FF}
+.brand b{font-family:"Anek Bangla",sans-serif;font-size:20px;line-height:1.1;display:block}
+.brand small{font-size:12.5px;color:var(--ink-2)}
+nav{display:flex;gap:6px}
+nav a{text-decoration:none;color:var(--ink-2);font-weight:500;padding:6px 12px;border-radius:10px}
+nav a:hover{background:#EEF4FF;color:var(--blue)}
+.tools{display:flex;gap:8px;align-items:center}
+.lang{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:10px;padding:7px 12px;font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+.lang:hover{border-color:var(--blue);color:var(--blue)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;border-radius:12px;padding:11px 20px;font-weight:600;border:1.5px solid transparent;font-size:15.5px;line-height:1.2}
+.btn.blue{background:var(--blue);color:#fff}.btn.blue:hover{background:var(--blue-d)}
+.btn.white{background:#fff;color:var(--blue)}
+.btn.glass{background:rgba(255,255,255,.14);color:#fff;border-color:rgba(255,255,255,.7)}
+.btn.glass:hover{background:rgba(255,255,255,.24)}
+@media (max-width:900px){nav{display:none}}
+@media (max-width:520px){.bar .btn.blue span{display:none}.bar .btn.blue{padding:10px 12px}}
+
+/* hero */
+.hero{position:relative;color:#fff;overflow:hidden;padding:78px 0 150px;text-align:center}
+.hero::before{content:"";position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 32 32'%3E%3Cpath d='M16 5c-3-2.2-9-2.6-10.6 2.3-1.3 4 .5 7.6 1.6 10.2.9 2.3 1.2 6.5 2.3 8.8.8 1.7 2.7 1.6 3.2-.2.6-2.2.9-6.1 3.5-6.1s2.9 3.9 3.5 6.1c.5 1.8 2.4 1.9 3.2.2 1.1-2.3 1.4-6.5 2.3-8.8 1.1-2.6 2.9-6.2 1.6-10.2C25 2.4 19 2.8 16 5z' fill='none' stroke='%23ffffff' stroke-opacity='.16' stroke-width='.8'/%3E%3C/svg%3E");background-size:90px 90px}
+.hero{background:linear-gradient(135deg,#2563EB 0%,#14A38B 55%,#F2A23A 100%)}
+.hero::after{display:none}
+.hero .wrap{position:relative;z-index:1}
+.pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:5px 14px;font-size:14px;font-weight:500}
+.dot{width:8px;height:8px;border-radius:50%;background:#4ADE80;box-shadow:0 0 0 3px rgba(74,222,128,.3)}
+.hero h1{font-size:clamp(38px,6.4vw,68px);line-height:1.08;margin:18px auto 14px;font-weight:800;max-width:16ch}
+.hero p.lead{font-size:clamp(17px,2vw,20px);max-width:44ch;margin:0 auto 28px;opacity:.95}
+.cta{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:24px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:5px 13px;font-size:14px}
+.chip .st{color:#FFD24A}
+
+/* stat cards */
+.stats{position:relative;z-index:2;margin-top:-104px}
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:900px;margin:0 auto}
+.stat{border-radius:var(--r);color:#fff;text-align:center;padding:26px 18px 24px;box-shadow:0 18px 40px -18px rgba(15,30,58,.45);text-decoration:none;display:block}
+.stat .ic{width:52px;height:52px;margin:0 auto 12px;border-radius:14px;background:rgba(255,255,255,.2);display:grid;place-items:center}
+.stat .num{font-family:"Anek Bangla",sans-serif;font-size:38px;font-weight:800;line-height:1}
+.stat .lbl{margin-top:8px;font-weight:500;opacity:.95}
+.s1{background:linear-gradient(160deg,#3B82F6,#1D4ED8)}
+.s2{background:linear-gradient(160deg,#22B59A,#0F8A75)}
+.s3{background:linear-gradient(160deg,var(--violet),var(--pink))}
+@media (max-width:700px){.stat-grid{grid-template-columns:1fr;max-width:420px}.stats{margin-top:-90px}}
+
+/* main grid */
+main{padding:46px 0 10px}
+.grid{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.5fr);gap:24px;align-items:start}
+.col{display:flex;flex-direction:column;gap:24px}
+@media (max-width:900px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border-radius:var(--r);box-shadow:0 2px 0 rgba(15,30,58,.02),0 12px 30px -20px rgba(15,30,58,.35);overflow:hidden}
+.card-h{display:flex;align-items:center;gap:10px;padding:16px 20px;font-family:"Anek Bangla",sans-serif;font-weight:700;font-size:19px}
+.card-h.blue{background:linear-gradient(90deg,var(--blue),#3B82F6);color:#fff}
+.card-h.teal{background:linear-gradient(90deg,var(--teal-d),var(--teal));color:#fff}
+.card-h.plain{border-bottom:1px solid var(--line)}
+.card-h.plain svg{color:var(--blue)}
+.card-b{padding:18px 20px 20px}
+
+.info-row{padding:12px 0;border-bottom:1px solid var(--line)}
+.info-row:last-child{border-bottom:0;padding-bottom:0}
+.info-row:first-child{padding-top:0}
+.info-row .k{font-size:13px;color:var(--ink-2)}
+.info-row .v{font-weight:600;font-size:17px}
+.info-row .v a{color:var(--blue);text-decoration:none}
+.info-row .v a:hover{text-decoration:underline}
+
+.days{display:flex;flex-direction:column;gap:10px;margin:0;padding:0;list-style:none}
+.day{display:flex;align-items:center;justify-content:space-between;gap:10px;border:1.5px solid #CDEFE5;background:#F2FBF8;border-radius:14px;padding:9px 12px}
+.day .dn{display:flex;align-items:center;gap:10px;font-weight:600}
+.day .dic{width:32px;height:32px;border-radius:50%;background:var(--teal);display:grid;place-items:center}
+.day .tm{background:#fff;border:1px solid #CDEFE5;border-radius:10px;padding:3px 10px;font-size:14px;font-weight:600;white-space:nowrap}
+.day.today{border-color:var(--teal);background:#E3F7F1}
+.day .today-tag{font-size:12px;background:var(--teal);color:#fff;border-radius:999px;padding:1px 8px;margin-left:6px;font-weight:600}
+.note{font-size:13.5px;color:var(--ink-2);margin:12px 0 0}
+
+.about p{margin:0;color:var(--ink-2)}
+.svc-list{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.svc{border:1px solid var(--line);border-radius:14px;padding:16px}
+.svc .si{width:42px;height:42px;border-radius:12px;background:#EEF4FF;display:grid;place-items:center;margin-bottom:10px}
+.svc:nth-child(2) .si{background:#E6F7F2}.svc:nth-child(3) .si{background:#FDF2E3}
+.svc h3{margin:0 0 4px;font-size:18px}
+.svc p{margin:0;color:var(--ink-2);font-size:15px}
+@media (max-width:640px){.svc-list{grid-template-columns:1fr}}
+.svc-note{margin:14px 0 0;color:var(--ink-2);font-size:14.5px}
+
+.rev-top{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.rev-score{font-family:"Anek Bangla",sans-serif;font-size:52px;font-weight:800;line-height:1;color:var(--ink)}
+.rev-meta .st{color:#F5A400;font-size:20px;letter-spacing:2px}
+.rev-meta div{color:var(--ink-2);font-size:14.5px}
+.rev-acts{display:flex;flex-wrap:wrap;gap:10px;margin-left:auto}
+.btn.out{border-color:var(--blue);color:var(--blue);background:#fff}
+@media (max-width:640px){.rev-acts{margin-left:0}}
+.themes{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+.theme{border-left:3px solid var(--amber);padding-left:12px}
+.theme h3{margin:0 0 2px;font-size:17px}
+.theme p{margin:0;color:var(--ink-2);font-size:14.5px}
+@media (max-width:640px){.themes{grid-template-columns:1fr}}
+
+.map{position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#E6F1FF}
+.map iframe{display:block;width:100%;height:340px;border:0}
+.map .open{position:absolute;top:10px;right:10px;background:#fff;border-radius:10px;padding:7px 12px;font-weight:600;font-size:14px;text-decoration:none;box-shadow:0 4px 14px -6px rgba(15,30,58,.4);display:inline-flex;align-items:center;gap:6px}
+
+/* CTA */
+.cta-bar{margin:40px auto 0;max-width:1000px;border-radius:var(--r);background:linear-gradient(90deg,var(--blue),var(--teal));color:#fff;text-align:center;padding:24px 20px;font-family:"Anek Bangla",sans-serif;font-weight:700;font-size:clamp(20px,3vw,30px)}
+.cta-bar a{color:#fff;text-underline-offset:5px}
+
+/* footer */
+footer{margin-top:44px;background:#fff;border-top:1px solid var(--line)}
+.f-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:28px;padding:36px 0 28px}
+.f-grid h3{margin:0 0 12px;font-size:20px}
+.f-grid ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px;color:var(--ink-2)}
+.f-grid a{text-decoration:none}.f-grid a:hover{color:var(--blue)}
+.f-brand p{color:var(--ink-2);margin:10px 0 0;max-width:34ch}
+.f-bottom{border-top:1px solid var(--line);padding:14px 0;font-size:14px;color:var(--ink-2)}
+.f-bottom .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+@media (max-width:760px){.f-grid{grid-template-columns:1fr}}
+
+/* floating call */
+.float{position:fixed;right:18px;bottom:18px;z-index:50;width:56px;height:56px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;box-shadow:0 10px 24px -8px rgba(15,30,58,.5)}
+.float:hover{background:var(--teal-d)}
+
+.svc-list.two{grid-template-columns:repeat(2,1fr)}
+@media (max-width:640px){.svc-list.two{grid-template-columns:1fr}}
+.tm2{display:flex;flex-direction:column;align-items:flex-end;gap:3px}
+.dot.closed{background:#FCA5A5;box-shadow:0 0 0 3px rgba(252,165,165,.35)}
+</style>
+</head>
+<body>
+
+<div class="demo" data-bn="নমুনা ডিজাইন — FutureMind-এর প্রস্তাব, ক্লিনিকের অনুমোদনের অপেক্ষায়" data-en="Sample design — a FutureMind proposal, pending the clinic's approval">নমুনা ডিজাইন — FutureMind-এর প্রস্তাব, ক্লিনিকের অনুমোদনের অপেক্ষায়</div>
+
+<div class="topbar">
+  <div class="wrap">
+    <a href="tel:+8801918304860"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span data-bn="০১৯১৮-৩০৪৮৬০" data-en="+880 1918-304860">০১৯১৮-৩০৪৮৬০</span></a>
+    <span class="hide-sm" data-bn="গ-৯৯/৬, মধ্য বাড্ডা, ঢাকা ১২১২" data-en="Ga-99/6, Middle Badda, Dhaka 1212">গ-৯৯/৬, মধ্য বাড্ডা, ঢাকা ১২১২</span>
+  </div>
+</div>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Dental Aid">
+      <span class="logo"><svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 5c-3-2.2-9-2.6-10.6 2.3-1.3 4 .5 7.6 1.6 10.2.9 2.3 1.2 6.5 2.3 8.8.8 1.7 2.7 1.6 3.2-.2.6-2.2.9-6.1 3.5-6.1s2.9 3.9 3.5 6.1c.5 1.8 2.4 1.9 3.2.2 1.1-2.3 1.4-6.5 2.3-8.8 1.1-2.6 2.9-6.2 1.6-10.2C25 2.4 19 2.8 16 5z" fill="#2563EB"/></svg></span>
+      <span><b data-bn="ডেন্টাল এইড" data-en="Dental Aid">ডেন্টাল এইড</b><small data-bn="মধ্য বাড্ডা, ঢাকা" data-en="Middle Badda, Dhaka">মধ্য বাড্ডা, ঢাকা</small></span>
+    </a>
+    <nav aria-label="Main">
+      <a href="#services" data-bn="চিকিৎসা" data-en="Treatments">চিকিৎসা</a>
+      <a href="#reviews" data-bn="রিভিউ" data-en="Reviews">রিভিউ</a>
+      <a href="#hours" data-bn="সময়সূচী" data-en="Hours">সময়সূচী</a>
+      <a href="#location" data-bn="অবস্থান" data-en="Location">অবস্থান</a>
+    </nav>
+    <div class="tools">
+      <button class="lang" id="langBtn" type="button" aria-label="Switch to English"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg><span id="langLbl">EN</span></button>
+      <a class="btn blue" href="tel:+8801918304860"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span data-bn="কল করুন" data-en="Call">কল করুন</span></a>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <span class="pill"><span class="dot" id="openDot"></span><span id="openTxt">প্রতিদিন দুই বেলা খোলা</span></span>
+    <h1 data-bn="ডেন্টাল এইড" data-en="Dental Aid">ডেন্টাল এইড</h1>
+    <p class="lead" data-bn="মধ্য বাড্ডায় আন্তরিক ও সাশ্রয়ী দাঁতের চিকিৎসা — শান্ত, পরিষ্কার পরিবেশে।" data-en="Friendly, affordable dental care in Middle Badda — in a calm, clean setting.">মধ্য বাড্ডায় আন্তরিক ও সাশ্রয়ী দাঁতের চিকিৎসা — শান্ত, পরিষ্কার পরিবেশে।</p>
+    <div class="cta">
+      <a class="btn white" href="tel:+8801918304860"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span data-bn="অ্যাপয়েন্টমেন্টের জন্য কল করুন" data-en="Call for an appointment">অ্যাপয়েন্টমেন্টের জন্য কল করুন</span></a>
+      <a class="btn glass" href="#location"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-bn="ম্যাপে দেখুন" data-en="See on map">ম্যাপে দেখুন</span></a>
+    </div>
+    <div class="chips">
+      <span class="chip"><span class="st" aria-hidden="true">★</span><span data-bn="৪.৮ রেটিং" data-en="4.8 rating">৪.৮ রেটিং</span></span>
+      <span class="chip" data-bn="আন্তরিক ডাক্তার" data-en="Friendly dentists">আন্তরিক ডাক্তার</span>
+      <span class="chip" data-bn="সাশ্রয়ী খরচ" data-en="Affordable">সাশ্রয়ী খরচ</span>
+    </div>
+  </div>
+</section>
+
+<section class="stats" aria-label="Highlights">
+  <div class="wrap">
+    <div class="stat-grid">
+      <a class="stat s1" href="https://search.google.com/local/reviews?placeid=ChIJIx_lRZHHVTcR2qYS7N46QJg" target="_blank" rel="noopener">
+        <div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg></div>
+        <div class="num" data-bn="৪.৮" data-en="4.8">৪.৮</div>
+        <div class="lbl" data-bn="Google রেটিং" data-en="Google rating">Google রেটিং</div>
+      </a>
+      <a class="stat s2" href="#hours">
+        <div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+        <div class="num" data-bn="৭ দিন" data-en="7 days">৭ দিন</div>
+        <div class="lbl" data-bn="সপ্তাহের প্রতিদিন খোলা" data-en="Open every day of the week">সপ্তাহের প্রতিদিন খোলা</div>
+      </a>
+      <a class="stat s3" href="#hours">
+        <div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <div class="num" data-bn="২ বেলা" data-en="2 shifts">২ বেলা</div>
+        <div class="lbl" data-bn="সকাল ও সন্ধ্যা চেম্বার" data-en="Morning and evening">সকাল ও সন্ধ্যা চেম্বার</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<main>
+  <div class="wrap grid">
+    <div class="col">
+      <div class="card">
+        <div class="card-h blue"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span data-bn="যোগাযোগের তথ্য" data-en="Contact details">যোগাযোগের তথ্য</span></div>
+        <div class="card-b">
+          <div class="info-row"><div class="k" data-bn="ফোন নম্বর" data-en="Phone">ফোন নম্বর</div><div class="v"><a href="tel:+8801918304860" data-bn="০১৯১৮-৩০৪৮৬০" data-en="+880 1918-304860">০১৯১৮-৩০৪৮৬০</a></div></div>
+          <div class="info-row"><div class="k" data-bn="ঠিকানা" data-en="Address">ঠিকানা</div><div class="v" data-bn="গ-৯৯/৬, মধ্য বাড্ডা, ঢাকা ১২১২" data-en="Ga-99/6, Middle Badda, Dhaka 1212">গ-৯৯/৬, মধ্য বাড্ডা, ঢাকা ১২১২</div></div>
+          <div class="info-row"><div class="k" data-bn="কাছের পরিচিত জায়গা" data-en="Landmark">কাছের পরিচিত জায়গা</div><div class="v" data-bn="মধ্য বাড্ডা বাজারের কাছে" data-en="Near Middle Badda Bazar">মধ্য বাড্ডা বাজারের কাছে</div></div>
+          <div class="info-row"><div class="k">Google Maps</div><div class="v"><a href="https://www.google.com/maps/search/?api=1&query=Dental%20Aid&query_place_id=ChIJIx_lRZHHVTcR2qYS7N46QJg" target="_blank" rel="noopener" data-bn="ম্যাপে খুলুন" data-en="Open in Maps">ম্যাপে খুলুন</a></div></div>
+        </div>
+      </div>
+
+      <div class="card" id="hours">
+        <div class="card-h teal"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-bn="সময়সূচী" data-en="Opening hours">সময়সূচী</span></div>
+        <div class="card-b">
+          <ul class="days" id="days"></ul>
+          <p class="note" data-bn="দুপুর ১টা থেকে বিকেল ৫টা পর্যন্ত চেম্বার বন্ধ থাকে। আসার আগে ফোন করে নিলে অপেক্ষা কম করতে হবে।" data-en="The chamber is closed from 1 PM to 5 PM. Call ahead to keep your waiting time short.">দুপুর ১টা থেকে বিকেল ৫টা পর্যন্ত চেম্বার বন্ধ থাকে। আসার আগে ফোন করে নিলে অপেক্ষা কম করতে হবে।</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card about">
+        <div class="card-h plain"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><span data-bn="ক্লিনিক সম্পর্কে" data-en="About the clinic">ক্লিনিক সম্পর্কে</span></div>
+        <div class="card-b">
+          <p data-bn="ডেন্টাল এইড মধ্য বাড্ডার একটি দাঁতের চিকিৎসাকেন্দ্র, মধ্য বাড্ডা বাজারের কাছেই। প্রতিদিন সকাল ও সন্ধ্যা দুই বেলা চেম্বার খোলা থাকে। রোগীরা এখানকার ডাক্তার ও স্টাফের আন্তরিক ব্যবহার, শান্ত ও পরিষ্কার পরিবেশ আর সাশ্রয়ী খরচের কথা বলেন। Google-এ গড় রেটিং ৪.৮।" data-en="Dental Aid is a dental clinic in Middle Badda, close to Middle Badda Bazar. The chamber is open twice a day, every day. Patients mention the friendly doctors and staff, the calm and clean setting, and the affordable cost. The average Google rating is 4.8.">ডেন্টাল এইড মধ্য বাড্ডার একটি দাঁতের চিকিৎসাকেন্দ্র, মধ্য বাড্ডা বাজারের কাছেই। প্রতিদিন সকাল ও সন্ধ্যা দুই বেলা চেম্বার খোলা থাকে। রোগীরা এখানকার ডাক্তার ও স্টাফের আন্তরিক ব্যবহার, শান্ত ও পরিষ্কার পরিবেশ আর সাশ্রয়ী খরচের কথা বলেন। Google-এ গড় রেটিং ৪.৮।</p>
+        </div>
+      </div>
+
+      <div class="card" id="services">
+        <div class="card-h plain"><svg width="20" height="20" viewBox="0 0 32 32"><path d="M16 5c-3-2.2-9-2.6-10.6 2.3-1.3 4 .5 7.6 1.6 10.2.9 2.3 1.2 6.5 2.3 8.8.8 1.7 2.7 1.6 3.2-.2.6-2.2.9-6.1 3.5-6.1s2.9 3.9 3.5 6.1c.5 1.8 2.4 1.9 3.2.2 1.1-2.3 1.4-6.5 2.3-8.8 1.1-2.6 2.9-6.2 1.6-10.2C25 2.4 19 2.8 16 5z" fill="none" stroke="currentColor" stroke-width="2.4"/></svg><span data-bn="আমাদের চিকিৎসা" data-en="Our treatments">আমাদের চিকিৎসা</span></div>
+        <div class="card-b">
+          <div class="svc-list two">
+            <div class="svc">
+              <div class="si"><svg width="24" height="24" viewBox="0 0 32 32"><path d="M16 5c-3-2.2-9-2.6-10.6 2.3-1.3 4 .5 7.6 1.6 10.2.9 2.3 1.2 6.5 2.3 8.8.8 1.7 2.7 1.6 3.2-.2.6-2.2.9-6.1 3.5-6.1s2.9 3.9 3.5 6.1c.5 1.8 2.4 1.9 3.2.2 1.1-2.3 1.4-6.5 2.3-8.8 1.1-2.6 2.9-6.2 1.6-10.2C25 2.4 19 2.8 16 5z" fill="none" stroke="#2563EB" stroke-width="2"/><path d="M5 13h22" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/><path d="M10 11v4M16 11v4M22 11v4" stroke="#2563EB" stroke-width="2"/></svg></div>
+              <h3 data-bn="দাঁত সোজা করা (ব্রেসেস)" data-en="Teeth straightening (braces)">দাঁত সোজা করা (ব্রেসেস)</h3>
+              <p data-bn="আঁকাবাঁকা বা উঁচু-নিচু দাঁত ব্রেসেস দিয়ে সারিবদ্ধ করার চিকিৎসা।" data-en="Aligning crooked or uneven teeth with braces.">আঁকাবাঁকা বা উঁচু-নিচু দাঁত ব্রেসেস দিয়ে সারিবদ্ধ করার চিকিৎসা।</p>
+            </div>
+            <div class="svc">
+              <div class="si"><svg width="24" height="24" viewBox="0 0 32 32"><path d="M16 5c-3-2.2-9-2.6-10.6 2.3-1.3 4 .5 7.6 1.6 10.2.9 2.3 1.2 6.5 2.3 8.8.8 1.7 2.7 1.6 3.2-.2.6-2.2.9-6.1 3.5-6.1s2.9 3.9 3.5 6.1c.5 1.8 2.4 1.9 3.2.2 1.1-2.3 1.4-6.5 2.3-8.8 1.1-2.6 2.9-6.2 1.6-10.2C25 2.4 19 2.8 16 5z" fill="none" stroke="#14A38B" stroke-width="2"/></svg></div>
+              <h3 data-bn="দাঁতের চেকআপ ও পরামর্শ" data-en="Dental check-up and advice">দাঁতের চেকআপ ও পরামর্শ</h3>
+              <p data-bn="দাঁতের যেকোনো সমস্যায় পরীক্ষা করে চিকিৎসার পরামর্শ।" data-en="Examination and treatment advice for any dental problem.">দাঁতের যেকোনো সমস্যায় পরীক্ষা করে চিকিৎসার পরামর্শ।</p>
+            </div>
+          </div>
+          <p class="svc-note" data-bn="অন্য কোনো চিকিৎসার জন্য ফোন করে জেনে নিন।" data-en="For any other treatment, please call to ask.">অন্য কোনো চিকিৎসার জন্য ফোন করে জেনে নিন।</p>
+        </div>
+      </div>
+
+      <div class="card" id="reviews">
+        <div class="card-h plain"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><span data-bn="Google রিভিউ" data-en="Google reviews">Google রিভিউ</span></div>
+        <div class="card-b">
+          <div class="rev-top">
+            <div class="rev-score" data-bn="৪.৮" data-en="4.8">৪.৮</div>
+            <div class="rev-meta"><span class="st" aria-hidden="true">★★★★★</span><div data-bn="Google Maps-এ রোগীদের রেটিং" data-en="Patient rating on Google Maps">Google Maps-এ রোগীদের রেটিং</div></div>
+            <div class="rev-acts">
+              <a class="btn blue" href="https://search.google.com/local/reviews?placeid=ChIJIx_lRZHHVTcR2qYS7N46QJg" target="_blank" rel="noopener" data-bn="সব রিভিউ পড়ুন" data-en="Read all reviews">সব রিভিউ পড়ুন</a>
+              <a class="btn out" href="https://search.google.com/local/writereview?placeid=ChIJIx_lRZHHVTcR2qYS7N46QJg" target="_blank" rel="noopener" data-bn="রিভিউ লিখুন" data-en="Write a review">রিভিউ লিখুন</a>
+            </div>
+          </div>
+          <div class="themes">
+            <div class="theme"><h3 data-bn="আন্তরিক ডাক্তার" data-en="Friendly dentists">আন্তরিক ডাক্তার</h3><p data-bn="রোগীকে সময় দেন, শান্তভাবে বুঝিয়ে বলেন।" data-en="They give patients time and explain calmly.">রোগীকে সময় দেন, শান্তভাবে বুঝিয়ে বলেন।</p></div>
+            <div class="theme"><h3 data-bn="পরিষ্কার পরিবেশ" data-en="Clean setting">পরিষ্কার পরিবেশ</h3><p data-bn="চেম্বার গোছানো ও পরিষ্কার — রোগীদের কথা।" data-en="Patients describe a tidy, clean chamber.">চেম্বার গোছানো ও পরিষ্কার — রোগীদের কথা।</p></div>
+            <div class="theme"><h3 data-bn="সাশ্রয়ী খরচ" data-en="Affordable">সাশ্রয়ী খরচ</h3><p data-bn="কম খরচে ভালো সেবার কথা রিভিউতে এসেছে।" data-en="Reviews mention good service at low cost.">কম খরচে ভালো সেবার কথা রিভিউতে এসেছে।</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="location">
+        <div class="card-h plain"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-bn="আমাদের অবস্থান" data-en="Our location">আমাদের অবস্থান</span></div>
+        <div class="card-b">
+          <div class="map">
+            <iframe title="Dental Aid on Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Dental%20Aid%2C%20Ga-99%2F6%2C%20Badda%2C%20Dhaka%201212&ll=23.7797766,90.425801&z=17&output=embed"></iframe>
+            <a class="open" href="https://www.google.com/maps/dir/?api=1&destination=Dental%20Aid&destination_place_id=ChIJIx_lRZHHVTcR2qYS7N46QJg" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg><span data-bn="পথ দেখুন" data-en="Directions">পথ দেখুন</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="cta-bar"><span data-bn="আজই যোগাযোগ করুন →" data-en="Get in touch today →">আজই যোগাযোগ করুন →</span> <a href="tel:+8801918304860" data-bn="০১৯১৮-৩০৪৮৬০" data-en="01918-304860">০১৯১৮-৩০৪৮৬০</a></div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap f-grid">
+    <div class="f-brand">
+      <a class="brand" href="#top"><span class="logo"><svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 5c-3-2.2-9-2.6-10.6 2.3-1.3 4 .5 7.6 1.6 10.2.9 2.3 1.2 6.5 2.3 8.8.8 1.7 2.7 1.6 3.2-.2.6-2.2.9-6.1 3.5-6.1s2.9 3.9 3.5 6.1c.5 1.8 2.4 1.9 3.2.2 1.1-2.3 1.4-6.5 2.3-8.8 1.1-2.6 2.9-6.2 1.6-10.2C25 2.4 19 2.8 16 5z" fill="#2563EB"/></svg></span><b data-bn="ডেন্টাল এইড" data-en="Dental Aid">ডেন্টাল এইড</b></a>
+      <p data-bn="মধ্য বাড্ডায় আন্তরিক ও সাশ্রয়ী দাঁতের চিকিৎসা।" data-en="Friendly, affordable dental care in Middle Badda.">মধ্য বাড্ডায় আন্তরিক ও সাশ্রয়ী দাঁতের চিকিৎসা।</p>
+    </div>
+    <div>
+      <h3 data-bn="সরাসরি লিংক" data-en="Quick links">সরাসরি লিংক</h3>
+      <ul>
+        <li><a href="#services" data-bn="চিকিৎসা" data-en="Treatments">চিকিৎসা</a></li>
+        <li><a href="#reviews" data-bn="রিভিউ" data-en="Reviews">রিভিউ</a></li>
+        <li><a href="#hours" data-bn="সময়সূচী" data-en="Hours">সময়সূচী</a></li>
+        <li><a href="#location" data-bn="অবস্থান" data-en="Location">অবস্থান</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 data-bn="যোগাযোগের ঠিকানা" data-en="Contact">যোগাযোগের ঠিকানা</h3>
+      <ul>
+        <li data-bn="গ-৯৯/৬, মধ্য বাড্ডা, ঢাকা ১২১২" data-en="Ga-99/6, Middle Badda, Dhaka 1212">গ-৯৯/৬, মধ্য বাড্ডা, ঢাকা ১২১২</li>
+        <li><a href="tel:+8801918304860" data-bn="০১৯১৮-৩০৪৮৬০" data-en="+880 1918-304860">০১৯১৮-৩০৪৮৬০</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="f-bottom">
+    <div class="wrap">
+      <span data-bn="© ২০২৬ ডেন্টাল এইড" data-en="© 2026 Dental Aid">© ২০২৬ ডেন্টাল এইড</span>
+      <span data-bn="ওয়েবসাইট: FutureMind" data-en="Website by FutureMind">ওয়েবসাইট: FutureMind</span>
+    </div>
+  </div>
+</footer>
+
+<a class="float" href="tel:+8801918304860" aria-label="Call Dental Aid"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></a>
+
+<script>
+(function(){
+  var DAYS={bn:['রবিবার','সোমবার','মঙ্গলবার','বুধবার','বৃহস্পতিবার','শুক্রবার','শনিবার'],en:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']};
+  var SLOTS={bn:['সকাল ১০টা – দুপুর ১টা','বিকেল ৫টা – রাত ১০টা'],en:['10 AM – 1 PM','5 PM – 10 PM']};
+  var ORDER=[6,0,1,2,3,4,5];
+  // Clinic time = Asia/Dhaka (UTC+6)
+  var now=new Date(Date.now()+(new Date().getTimezoneOffset()+360)*60000);
+  var today=now.getDay(), mins=now.getHours()*60+now.getMinutes();
+  var isOpen=(mins>=600&&mins<780)||(mins>=1020&&mins<1320);
+  var ic='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>';
+  function renderDays(lang){
+    var ul=document.getElementById('days'); ul.innerHTML='';
+    ORDER.forEach(function(d){
+      var li=document.createElement('li'); li.className='day'+(d===today?' today':'');
+      var tag=d===today?'<span class="today-tag">'+(lang==='bn'?'আজ':'Today')+'</span>':'';
+      li.innerHTML='<span class="dn"><span class="dic">'+ic+'</span>'+DAYS[lang][d]+tag+'</span><span class="tm2"><span class="tm">'+SLOTS[lang][0]+'</span><span class="tm">'+SLOTS[lang][1]+'</span></span>';
+      ul.appendChild(li);
+    });
+  }
+  function renderOpen(lang){
+    var dot=document.getElementById('openDot'), txt=document.getElementById('openTxt');
+    dot.className='dot'+(isOpen?'':' closed');
+    if(isOpen) txt.textContent=lang==='bn'?'এখন খোলা আছে':'Open now';
+    else txt.textContent=lang==='bn'?'এখন বন্ধ — খোলে সকাল ১০টা ও বিকেল ৫টায়':'Closed now — opens at 10 AM and 5 PM';
+  }
+  var btn=document.getElementById('langBtn'), lbl=document.getElementById('langLbl');
+  function apply(lang){
+    document.documentElement.lang=lang;
+    document.querySelectorAll('[data-bn]').forEach(function(el){ el.textContent=el.getAttribute('data-'+lang); });
+    lbl.textContent=lang==='bn'?'EN':'বাংলা';
+    btn.setAttribute('aria-label',lang==='bn'?'Switch to English':'বাংলায় দেখুন');
+    document.title=lang==='bn'?'ডেন্টাল এইড | মধ্য বাড্ডা, ঢাকা':'Dental Aid | Middle Badda, Dhaka';
+    renderDays(lang); renderOpen(lang);
+  }
+  var lang='bn';
+  try{ var s=localStorage.getItem('da-lang'); if(s==='en'||s==='bn') lang=s; }catch(e){}
+  apply(lang);
+  btn.addEventListener('click',function(){ lang=lang==='bn'?'en':'bn'; apply(lang); try{ localStorage.setItem('da-lang',lang); }catch(e){} });
+})();
+</script>
+</body>
+</html>
